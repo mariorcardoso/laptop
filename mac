@@ -116,23 +116,14 @@ tap "universal-ctags/universal-ctags"
 tap "caskroom/cask"
 
 # Unix
-brew "universal-ctags", args: ["HEAD"]
 brew "git"
 brew "openssl"
-brew "rcm"
-brew "reattach-to-user-namespace"
 brew "the_silver_searcher"
-brew "tmux"
 brew "vim"
-brew "watchman"
-brew "zsh"
 
 # Heroku
 brew "heroku"
 brew "parity"
-
-# GitHub
-brew "hub"
 
 # Image manipulation
 brew "imagemagick"
